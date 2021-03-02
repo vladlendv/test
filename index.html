@@ -4,9 +4,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Git Test</title>
+	<link rel="stylesheet" href="dist/style.css">
 </head>
 <body>
-	<h2>New command</h2>
+	<h1>New command</h1>
 	<ul>
 		<li>git init (create git in directory)</li>
 		<li>echo >> README.mn (create readme file)</li>
@@ -14,6 +15,9 @@
 		<li>git add -A (add file in index, -A = all)</li>
 		<li>git commit -a -m "description" (commit changes. -a = all, -m = message)</li>
 		<li>git status (check repository status)</li>
+		<li>git log (see all changes history)</li>
+		<li>git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short (change history in comfortable format)</li>
+		<li>command --help (open documentation for this command)</li>
 	</ul>
 </body>
 </html>
